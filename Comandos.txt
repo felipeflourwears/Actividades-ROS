@@ -1,0 +1,8 @@
+27-03-2023
+
+https://github.com/ManchesterRoboticsLtd
+https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251
+
+cd ~/catkin_ws/src/
+git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+cd ~/catkin_ws && catkin_make
