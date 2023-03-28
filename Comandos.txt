@@ -3,6 +3,25 @@
 https://github.com/ManchesterRoboticsLtd
 https://gist.github.com/PurpleVibe32/30a802c3c8ec902e1487024cdea26251
 
+sudo apt update
+sudo apt upgrade
+
+sudo apt install ros-noetic-turtlebot3-msgs
+sudo apt install ros-noetic-turtlebot3
+sudo apt-get install ros-noetic-usb-cam
+
+roscore
+rospack list
+roslaunch usb_cam usb_cam-test.launch
+rosnode list
+rosrun rqt_graph rqt_graph
+
+
 cd ~/catkin_ws/src/
-git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 cd ~/catkin_ws && catkin_make
+
+export TURTLEBOT3_MODEL=waffle_pi
+roslaunch turtlebot3_gazebo turtlebot3_stage_4.launch
+
+gedit .bashrc
