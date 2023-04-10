@@ -24,7 +24,7 @@ def callback(msg, publisher):
 def listener():
     rospy.init_node('subscritor', anonymous=True)
 
-    pub = rospy.Publisher('mynodedegrees', Float64, queue_size=10)  # Crear publicador en el nuevo nodo
+    pub = rospy.Publisher('att_turtlebot3', Float64, queue_size=10)  # Crear publicador en el nuevo nodo
     
     rospy.Subscriber("odom", Odometry, callback, pub)
 
