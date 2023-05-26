@@ -1,15 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3002B_Intelligent_Robotics_Implementation/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3002B_Intelligent_Robotics_Implementation/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3003B_Integration_of_Robotics_and_Intelligent_Systems/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3003B_Integration_of_Robotics_and_Intelligent_Systems/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
   <img alt="Shows ITESM logo in black or white." width="160" align="right">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3002B_Intelligent_Robotics_Implementation/blob/main/Misc/Logos/MCR2_Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3002B_Intelligent_Robotics_Implementation/blob/main/Misc/Logos/MCR2_Logo_Black.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3003B_Integration_of_Robotics_and_Intelligent_Systems/blob/main/Misc/Logos/MCR2_Logo_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3003B_Integration_of_Robotics_and_Intelligent_Systems/blob/main/Misc/Logos/MCR2_Logo_Black.png">
   <img alt="Shows MCR2 logo in black or white." width="150" align="right">
 </picture>
-
 
 ---
 
@@ -42,7 +41,7 @@ into your folder `src`  in your usual catkin workspace (usually `~/catkin_ws/src
   ```
   catkin_make
   source devel/setup.bash
-  roslaunch puzzlebot_world puzzlebot_simple_world.launch
+  roslaunch puzzlebot_world puzzlebot_obstacle_world.launch
   ```
 * Open a new terminal and run 
   ```
@@ -64,6 +63,20 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 * Input in the terminal the commands to move the robot (use the keyboard as explained in the terminal instructions)
 * See how the robot traverses accordingly the environment.
 
+
+## Add a new world to the MCR2 simulator
+
+* Create your own Gazebo World ui.e., *test.world*
+* Save the *.world* file inside the folder *Puzzlebot_Gazebo_Simulator/puzzlebot_world/worlds/*
+* Open the launch file inside the folder *Puzzlebot_Gazebo_Simulator/puzzlebot_world/launch/puzzlebot_obstacle_world.launch*
+* Change the following line with the name of your world
+
+```
+<arg name="world_name" value="$(find puzzlebot_world)/worlds/test.world"/>
+```
+
+* Save the launch file.
+* Launch your nodes using the launch file *puzzlebot_obstacle_world.launch*
 
 
 ## Quick Troubleshooting

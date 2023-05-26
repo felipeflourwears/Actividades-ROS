@@ -35,6 +35,14 @@
 /home/student/catkin_ws/build/gtest/googletest/CMakeFiles/test.dir
 /home/student/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/student/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/install/strip.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/install/local.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/install.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/list_install_components.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/rebuild_cache.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/edit_cache.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/test.dir
+/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_navigation/CMakeFiles/_catkin_empty_exported_target.dir
 /home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/install/strip.dir
 /home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/install/local.dir
 /home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/install.dir
@@ -42,7 +50,6 @@
 /home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/rebuild_cache.dir
 /home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/edit_cache.dir
 /home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/test.dir
-/home/student/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/CMakeFiles/_catkin_empty_exported_target.dir
 /home/student/catkin_ws/build/mypkg/CMakeFiles/install/strip.dir
 /home/student/catkin_ws/build/mypkg/CMakeFiles/install/local.dir
 /home/student/catkin_ws/build/mypkg/CMakeFiles/install.dir
